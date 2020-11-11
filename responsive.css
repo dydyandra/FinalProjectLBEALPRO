@@ -1,0 +1,118 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+header{
+    text-align: left;
+}
+
+.nav a{
+    font-size:18px;
+}
+
+.top-wrapper h1{
+    font-size:35px;
+}
+
+.proskills{
+    position:relative;
+}
+
+.perskills{
+    position:relative;
+}
+
+.knowledgeskills{
+    padding:auto;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:0px;
+}
+
+.proskills img{
+    float:left;
+    margin-left:10px;
+}
+
+.perskills img{
+    float:left;
+    height:70%;
+}
+
+.eduorg{
+    height:1000px;
+}
+
+.edu{
+    height:1000px;
+    
+}
+
+.org{
+    height:1000px;
+}
+
+  
+  /* For Smartphones */
+  @media all and (max-width: 670px) {
+
+.top-wrapper{
+    background-image:url(images/fotocv4.jpg);
+}
+
+.top-wrapper:hover{
+    background-image:url(images/fotocv5.jpg);
+}
+
+.btn{
+    padding:6px 12px;
+}
+
+.part1{
+    float:left;
+}
+
+.top-wrapper h1{
+    font-size:30px;
+}
+
+.top-wrapper h2{
+    font-size:10px;
+}
+
+.nav a{
+    font-size:15px;
+    margin:2px;
+}
+
+.about-me{
+    height:200px;
+}
+
+.proskills{
+    width: auto;
+    position:relative;
+    /* border: solid blue 3px; */
+}
+
+.perskills{
+    width:auto;
+    position:relative;
+    /* border: solid blue 3px; */
+}
+
+.knowledgeskills{
+    text-align:left;
+    padding-top:20px;
+    padding-bottom:0px;
+}
+
+.proskills img{
+    float:left;
+    margin-left:10px;
+    height:70%;
+}
+
+.perskills img{
+    float:left;
+    height:65%;
+
+}

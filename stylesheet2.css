@@ -1,0 +1,324 @@
+html{scroll-behavior: smooth;}
+
+body {
+  margin:0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+ }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 0px;
+    margin: 0 auto;
+  }
+
+  header {
+    height:30px;
+    background-color:rgba(162,79,94,0.9); 
+    text-align:left;
+    padding: 20px 5px;
+    
+  }
+
+  .nav{
+    margin:auto;
+  }
+
+  .nav a{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-top:20px;
+    margin-top: 40px;
+    margin-right:10px;
+    font-family: 'Montserrat', sans-serif;
+
+
+  }
+  
+  .nav a:hover{
+    color:#5f5d60;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(images/fotocv3.JPG); 
+    filter: opacity(0.8);
+    background-size: cover;
+    color:White;
+    text-align: left;
+  }
+  
+  .top-wrapper:hover{
+    background-image: url(images/fotocv2.JPG);
+  }
+  
+  .top-wrapper h1 {
+    padding-left:15px;
+    opacity: 0.9;
+    font-size: 60px;
+    letter-spacing: 4px ;
+    margin-bottom: 20px;
+    color:rgb(161, 79, 94);
+  }
+
+  .top-wrapper h2{
+    padding-left:15px;
+    opacity:0.6;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    padding-left:15px;
+    margin: 20px 0;
+    opacity:1;
+  }
+  
+  .signup {
+    background-color:#dbb2a5;
+    margin-right:10px;
+  }
+
+  .signup:hover{
+    background-color:rgb(161, 79, 94) ;
+  }
+  
+  .instagram {
+    background-color: #dbb2a5;
+    margin-right: 10px;
+  }
+
+  .instagram:hover{
+    background-color:rgb(161, 79, 94) ;
+  }
+  
+  .github {
+    background-color:#dbb2a5;
+  }
+  
+  .github:hover{
+    background-color:rgb(161, 79, 94) ;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  
+ .about-me {
+    min-height:300px ;
+    width:100%;
+    padding-bottom:80px;
+    /* padding-left:15px; */
+    background-color: rgba(162,79,94,0.9);
+    /* padding: 0 15px; */
+    /* border: solid green 3px; */
+
+  }
+
+
+  .part1{
+    text-align:left;
+    width:100%;
+    /* border: solid black 3px; */
+  
+    /* margin-right:50px; */
+  }
+  
+  .part1 p{
+    /* word-wrap:normal; */
+    margin:15px;
+    /* white-space: normal; */
+  }
+
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    margin-left:10px;
+    text-align:center;
+  }
+
+  .bold{
+    font-weight:bold;
+  }
+
+
+  .eduorg{
+    height:900px;
+  }
+
+  .edu{
+    position:absolute;
+    left:0;
+    background-color:rgba(184, 109, 122, 0.9);
+    width:50%;
+    height:900px;
+  }
+
+  .edutext{
+    text-align:center;
+    color:#5f5d60;
+  }
+
+  .container1 ul {
+    list-style: none;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1px 100px;
+    color: #fff;
+    font-size: 13px;
+  }
+  
+  .container1 ul li {
+    position: relative;
+    margin-left: 30px ;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 14px;
+    border-radius: 6px;
+    width: 250px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+  }
+  .container1 ul li:not(:first-child) {
+    margin-top: 60px;
+  }
+  .container1 ul li > span {
+    width: 2px;
+    height: 100%;
+    background: #fff;
+    left: -30px;
+    top: 0;
+    position: absolute;
+  }
+  .container1 ul li > span:before, .container ul li > span:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    background:  #e3bca6;
+    left: -5px;
+    top: 0;
+  }
+  .container1 ul li span:after {
+    top: 100%;
+  }
+  .container1 ul li > div {
+    margin-left: 10px;  
+  }
+  .container1 div .type {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .container1 div .info {
+    font-weight: 700;
+  }
+  .container1 div > div {
+    margin-top: 5px;
+  }
+  .container1 span.number {
+    height: 100%;
+  }
+  .container1 span.number span {
+    position: absolute;
+    font-size: 10px;
+    left: -35px;
+    font-weight: bold;
+  }
+  .container1 span.number span:first-child {
+    top: 0;
+  }
+  .container1 span.number span:last-child {
+    top: 100%;
+  }
+  .org{
+    position:absolute;
+    right:0;
+    background-color:rgba(197, 176, 186, 0.9);
+    width:50%;
+    height:900px;
+  }
+  
+  .orgtext{
+    padding-right:15px;
+    margin-left:20px;
+    text-align:center;
+    color:#5f5d60;
+  }
+
+  .orgtext p{
+    text-align:left;
+    font-size:15px;
+  }
+
+
+  .orgtext h3{
+    text-align:left;
+  }
+
+  .knowledgeskills{
+    position:relative;
+    background-color: #b47775;
+    text-align: center;
+    height:auto;
+    width:auto;
+    padding:50px;
+    color:#5f5d60;
+  }
+
+
+  .proskills img{
+    height:auto;
+    width:auto;
+  }
+
+  .perskills img{
+    height:auto;
+    width:auto;
+  }
+
+  .proskills{
+    position:absolute;
+    left:0;
+    background-color:#b47775;
+    width:50%;
+    height:500px;
+    text-align:center;
+
+  }
+  
+  .perskills{
+    position:absolute;
+    right:0;
+    background-color:#b47775;
+    width:50%;
+    height:500px;
+
+  }
